@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+   
+    --cr-main: #0B0B0C;
+    --color-secondary: #2E2E2E;
+    --cr-title: #D72638;
+    --color-text: orange;
+    --color-light: #FFFFFF;
+    --cr-title-font:"Poppins",Georgia,serif;
+    --cr-text-font:"Playfair Display",Georgia;
+}
+.bg-cr{
+    background-color:var(--cr-main) ;
+}
+/* rgb(106, 173, 207) */
+body{
+    background-color:rgb(240, 239, 239);
+}
+.bg-img-cr{
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:cover;
+   margin-top: 85px;
+   height:  calc(100vh - 85px);
+   
+}
+.cr-description{
+    /* height:200px; */
+    width: 700px;
+    background-color:transparent;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.cr-description h2{
+    color:var(--cr-title);
+    font-weight: 700;
+}
+.cr-offer-img{
+    border-top-left-radius: var(--bs-card-border-radius);
+    border-top-right-radius: var(--bs-card-border-radius);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:200px;
+}
+.nav-link{
+    color: var(--cr-title);
+}
+.cr-brandname{
+    color: var(--cr-title);
+}
+.cr-card-bg{
+    background-color: var(--color-secondary);
+}
+
+.card-body h3{
+    color: aliceblue;
+    font-family: var(--cr-text-font);
+    font-weight: 400;
+}
+.card-text{
+    color: orange;
+    font-family: var(--cr-title-font);
+}
+.bg-orange{
+    color: orange;
+}
+.cr-title{
+    color: var(--cr-title);
+    font-family: var(--cr-title-font);
+    font-weight: 400;
+}
+.cr-heading{
+    font-family: var(--cr-text-font);
+}
+.icon-div{
+    width:110px;
+    height:110px;
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+}
+.book-img{
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height: calc(100vh - 85px);
+}
+.cr-form{
+    padding: 20px;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.list-unstyled a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--color-text);
+
+}
+#footer{
+    background-color: var(--cr-main);
+}
+.container .col-lg-3 h4{
+    color:var(--cr-title);
+}
+.container .col-lg-3 p{
+    color:var(--color-text);
+}
+.cr-text{
+    color: var(--color-text);
+}
+.ft-ic-div{
+    padding: 10px;
+}
+.nav-item a:hover{
+    color: green;
+}
+#service{
+    margin-top: 85px;
+}
+.cr-offer-img:hover{
+    /* transform:scaleX(1.5); */
+    transform:scale(1.1,1.1);
+    transition: 1s;
+}
+.cr-margin{
+    margin-top: 85px;
+    margin-bottom: 40px;
+    
+}
+.active-link{
+    color: chartreuse;
+}
